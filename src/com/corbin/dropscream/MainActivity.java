@@ -111,7 +111,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
 			}
 			scream();
 			tTriggered = currTime;
-			Toast.makeText(this, Integer.toString(count) + ":" + Float.toString(a), Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "Ahh!", Toast.LENGTH_SHORT).show();
 			count=0;
 			/*if (keepScreaming == 0) {
 				for (int i=0; i<rollingValues.length; i++) {
